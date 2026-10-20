@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CrowdFund</title>
+
+<link rel="stylesheet" href="CFstyle.css">
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+    <h1>CrowdFund</h1>
+
+    <button id="connect">
+        Connect Wallet
+    </button>
+
+</div>
+
+<div class="create-card">
+
+    <h2>Create Campaign</h2>
+
+    <input id="title" placeholder="Title">
+
+    <input id="goal" placeholder="Goal ETH">
+
+    <input id="days" placeholder="Duration Days">
+
+    <textarea
+        id="description"
+        placeholder="Description">
+    </textarea>
+
+    <input
+        id="image"
+        placeholder="Image URL">
+
+    <button id="createCampaign">
+        Launch Campaign
+    </button>
+
+</div>
+
+<div id="campaigns">
+
+</div>
+
+<script src="CFapp.js"></script>
+
+</body>
+</html>
